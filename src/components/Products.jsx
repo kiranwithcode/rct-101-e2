@@ -60,7 +60,8 @@ const Products = () => {
                   nextPage={nextPage}
                   prevPage={prevPage}
                   total={total}
-                  page={page}/>
+                  page={page}
+                  limit={limit}/>
     </Flex>
   );
 };
